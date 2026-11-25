@@ -1,0 +1,188 @@
+{
+  "issue": "https://github.com/kumudasrip/QuestHabit/issues/2",
+  "sourceRepository": "https://github.com/divyanshAgarwal123/QuestHabit",
+  "sourceHead": "505175d2e8c349d1ec70461e323cabc0c6470672",
+  "actualSourceParent": "6c044d4193db9dc52676969532da6bca17433cb9",
+  "sourceBlobs": [
+    {
+      "path": "src/App.tsx",
+      "gitBlobOid": "2d39719ef7f627d7bfd7aac8ae94c86f18b2fbc6"
+    },
+    {
+      "path": "src/lib/game.ts",
+      "gitBlobOid": "eff7054d473d8871e1c5fdaccd2eb590d88043f1"
+    },
+    {
+      "path": "src/lib/quest-validation.test.ts",
+      "gitBlobOid": "48ba819e60c32b59f4ef3f2bb01c2b83da420721"
+    },
+    {
+      "path": "src/test/quest-editing.test.tsx",
+      "gitBlobOid": "9e2c23cf84b64cfdbc57d1b1ea503689866ad389"
+    }
+  ],
+  "capturedAt": "2026-11-25T07:00:15.745772+00:00",
+  "nodeVersion": "22.23.5",
+  "checks": {
+    "npmCi": true,
+    "typecheck": true,
+    "lint": true,
+    "fullTestsPassed": 82,
+    "newTests": 23,
+    "canonicalA11yTestsPassed": 15,
+    "productionBuild": true,
+    "stagedSecrets": true,
+    "realChromeMatrixCasesPassed": 8,
+    "axeViolations": 0,
+    "manualReview": true
+  },
+  "scope": "Existing pre-override Level2 commitment. Extend the existing QuestModal duration/inline validation; no new service or storage schema. Preserve IDs and historical completion XP.",
+  "limitations": [
+    "Only automatic favicon.ico404 resource noise remains; exact parent index unchanged and no favicon tracked. No JavaScript exceptions.",
+    "Existing dependency audit findings from unchanged lock are not fixed by this focused feature.",
+    "Frontend-only synthetic fixture browser acceptance; existing Google font resource requests remain.",
+    "Transcript logs have trailing whitespace normalized; reports and screenshots copied byte-for-byte."
+  ],
+  "artifacts": [
+    {
+      "path": "quest-canonical-checks.json",
+      "sha256": "99c4fc0075d9282c7767f24cd488159d836b625f43dd565eab3da6e1b3ed582e",
+      "bytes": 751
+    },
+    {
+      "path": "quest-tests.txt",
+      "sha256": "b5de6d0afa4923c3a3fa66fe5226b8267ae5f1ec94117912c629c924417730cd",
+      "bytes": 5559
+    },
+    {
+      "path": "quest-lint.txt",
+      "sha256": "3309c48185f50a8fbfe6e449f73c894816efccb2d18fb53420cfa2718a43c2f3",
+      "bytes": 36
+    },
+    {
+      "path": "quest-a11y.txt",
+      "sha256": "708096b92a3006e42a861dc0ce5ee1d090bc02bc203873920ae91b7c7bed52ec",
+      "bytes": 4691
+    },
+    {
+      "path": "quest-build.txt",
+      "sha256": "222153c03372607ae4322d7784f091ea7d8966c1c441fb5bb0e439b968dacd7b",
+      "bytes": 431
+    },
+    {
+      "path": "quest-secret-scan.txt",
+      "sha256": "e16e615cc169d28bb2f17246f6dc4fee0394a41766513791e29b31f60466a276",
+      "bytes": 111
+    },
+    {
+      "path": "quest-browser-report.json",
+      "sha256": "361e7bdecdf396581f384860db9293678cbe2720b19f37048f3724efce03a8a3",
+      "bytes": 8434
+    },
+    {
+      "path": "quest-browser.mjs",
+      "sha256": "f5f5e14dbc79361225f6f74cc8216f133788def2e70cb9ae8095266dc09b7d06",
+      "bytes": 9067
+    },
+    {
+      "path": "run-quest-browser.py",
+      "sha256": "3bef4d2735ee9a53ae13e54c642fc423edb7252009808c4000ec40b78ed35a22",
+      "bytes": 1830
+    },
+    {
+      "path": "quest-manual-review.json",
+      "sha256": "a210461dfff8d6ddfa9c49024abedd79ecde1125e2b1166ba9cc230ab99d699f",
+      "bytes": 520
+    },
+    {
+      "path": "quest-existing-favicon.json",
+      "sha256": "eaebe2140dd1cbf4e8a3353ed96c0f50b43c326ab041c8a597c0d44a637d594d",
+      "bytes": 222
+    },
+    {
+      "path": "quest-owned-servers-stopped.json",
+      "sha256": "02a67825dc26dbbafc6a9867cf08538ab6b76d1d04ed72121159cf0def4d7575",
+      "bytes": 75
+    },
+    {
+      "path": "production-390-midnight-errors.png",
+      "sha256": "218a75a2fdb170c4a999c2d5598b06fe1487638d2e269661cd09564a6801fbba",
+      "bytes": 52089
+    },
+    {
+      "path": "production-390-light-edit.png",
+      "sha256": "73558fb0593ef6306b5bed27f9190cecbee3d7f1a3afc548c0134935c70f4152",
+      "bytes": 53432
+    },
+    {
+      "path": "production-1280-midnight-edit.png",
+      "sha256": "f5ee0a3e5bbfc01177da86d2e0b76e2d954d22e627ded9e87641bf1d8956fe76",
+      "bytes": 112066
+    },
+    {
+      "path": "production-390-light-errors.png",
+      "sha256": "8386af9b081b1deb55a70784a5716dc00ce773b8907e6399e1eda33f14cb132a",
+      "bytes": 57059
+    },
+    {
+      "path": "production-1280-light-edit.png",
+      "sha256": "720afff1b48cbf3a0d1cac915ea7271ee90b82c93b4e936c3cda56328ae7b84c",
+      "bytes": 121069
+    },
+    {
+      "path": "production-1280-light-errors.png",
+      "sha256": "ffdfea120377552c85c02fe34164a9061ba094d3576dcbd913db275edca3b091",
+      "bytes": 126090
+    },
+    {
+      "path": "production-390-midnight-edit.png",
+      "sha256": "7c9ffb8207d12ad096e5e1702bac6b5ff7907d2c8268c4e824937690bd3864d4",
+      "bytes": 47916
+    },
+    {
+      "path": "production-1280-midnight-errors.png",
+      "sha256": "94c3cd43ab6a00cb8fb1f27de21b7e2e41eeae9eab33fb4444fd03f97fb26e96",
+      "bytes": 116265
+    },
+    {
+      "path": "dev-1280-midnight-edit.png",
+      "sha256": "f5ee0a3e5bbfc01177da86d2e0b76e2d954d22e627ded9e87641bf1d8956fe76",
+      "bytes": 112066
+    },
+    {
+      "path": "dev-1280-light-errors.png",
+      "sha256": "477ded823e8a4af0f5410ed1c1947606fbd0de941ed6b3db20298811a216a976",
+      "bytes": 126050
+    },
+    {
+      "path": "dev-390-midnight-errors.png",
+      "sha256": "218a75a2fdb170c4a999c2d5598b06fe1487638d2e269661cd09564a6801fbba",
+      "bytes": 52089
+    },
+    {
+      "path": "dev-1280-light-edit.png",
+      "sha256": "720afff1b48cbf3a0d1cac915ea7271ee90b82c93b4e936c3cda56328ae7b84c",
+      "bytes": 121069
+    },
+    {
+      "path": "dev-1280-midnight-errors.png",
+      "sha256": "94c3cd43ab6a00cb8fb1f27de21b7e2e41eeae9eab33fb4444fd03f97fb26e96",
+      "bytes": 116265
+    },
+    {
+      "path": "dev-390-light-errors.png",
+      "sha256": "8386af9b081b1deb55a70784a5716dc00ce773b8907e6399e1eda33f14cb132a",
+      "bytes": 57059
+    },
+    {
+      "path": "dev-390-midnight-edit.png",
+      "sha256": "7c9ffb8207d12ad096e5e1702bac6b5ff7907d2c8268c4e824937690bd3864d4",
+      "bytes": 47916
+    },
+    {
+      "path": "dev-390-light-edit.png",
+      "sha256": "73558fb0593ef6306b5bed27f9190cecbee3d7f1a3afc548c0134935c70f4152",
+      "bytes": 53432
+    }
+  ]
+}

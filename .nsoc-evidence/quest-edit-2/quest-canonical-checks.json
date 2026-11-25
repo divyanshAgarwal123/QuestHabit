@@ -1,0 +1,30 @@
+[
+  {
+    "script": "test",
+    "exitCode": 0,
+    "startedAt": "2026-11-25T06:55:24.740912+00:00",
+    "finishedAt": "2026-11-25T06:55:28.312349+00:00",
+    "log": "quest-tests.log"
+  },
+  {
+    "script": "lint",
+    "exitCode": 0,
+    "startedAt": "2026-11-25T06:55:28.312843+00:00",
+    "finishedAt": "2026-11-25T06:55:29.971870+00:00",
+    "log": "quest-lint.log"
+  },
+  {
+    "script": "test:a11y",
+    "exitCode": 0,
+    "startedAt": "2026-11-25T06:55:29.972243+00:00",
+    "finishedAt": "2026-11-25T06:55:33.068819+00:00",
+    "log": "quest-a11y.log"
+  },
+  {
+    "script": "build",
+    "exitCode": 0,
+    "startedAt": "2026-11-25T06:55:33.069176+00:00",
+    "finishedAt": "2026-11-25T06:55:36.524339+00:00",
+    "log": "quest-build.log"
+  }
+]

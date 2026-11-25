@@ -1,0 +1,69 @@
+
+> questhabit@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/questhabit2
+
+ ✓ src/lib/quest-validation.test.ts (15 tests) 4ms
+ ✓ src/lib/game.test.ts (10 tests) 4ms
+ ✓ src/lib/storage.test.ts (34 tests) 10ms
+stderr | src/test/quest-editing.test.tsx > quest edit validation and duration > prefills duration and saves metadata without changing IDs or historical completion XP
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Dashboard Flow > renders proper landmarks, headings, accessible buttons, and passes a11y audit
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Completion and Undo Flow > allows keyboard toggle of quest completion and undo with accessible status feedback
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Creation Dialog Flow > dialog has accessible name, associated form labels, focus trap, and restores focus on close
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Creation Dialog Flow > traps focus inside the dialog while open
+Warning: An update to QuestModal inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at QuestModal (/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/questhabit2/src/App.tsx:2111:3)
+    at Quests (/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/questhabit2/src/App.tsx:1795:3)
+    at Router (/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/questhabit2/node_modules/react-router/dist/umd/react-router.development.js:1203:17)
+    at MemoryRouter (/Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/questhabit2/node_modules/react-router/dist/umd/react-router.development.js:1097:7)
+
+ ✓ src/test/quest-editing.test.tsx (8 tests) 736ms
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Creation Dialog Flow > creates a custom quest with selected weekdays and passes a11y audit
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Editing Dialog Flow > opens accessible edit dialog with populated labels, saves via keyboard, and restores focus
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Quest Editing Dialog Flow > preserves custom schedule when editing a quest and allows toggling weekdays
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Desktop and Mobile Navigation > desktop sidebar navigation provides skip link, accessible names, aria-current, and passes audit
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Desktop and Mobile Navigation > mobile navigation provides labeled links with aria-current for narrow viewports
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Settings and Import/Export Controls > has associated form labels, accessible export/reset buttons, and keyboard-reachable file import
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+stderr | src/test/accessibility.test.tsx > Accessibility: Habit Library and Calendar > habit library has search label and disambiguated add quest button names
+Not implemented: HTMLCanvasElement's getContext() method: without installing the canvas npm package
+
+ ✓ src/test/accessibility.test.tsx (15 tests) 1284ms
+
+ Test Files  5 passed (5)
+      Tests  82 passed (82)
+   Start at  12:25:25
+   Duration  2.62s (transform 240ms, setup 715ms, collect 646ms, tests 2.04s, environment 3.56s, prepare 248ms)
